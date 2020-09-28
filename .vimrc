@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
-Plug 'neoclide/coc.nvim', {'branch': 'release'}"IntelliSense
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}"IntelliSense
+Plug 'neoclide/coc-rls'
+Plug 'neoclide/coc-json'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/nerd-fonts'"Copy fonts from repo folder 'patched' to usr/share/fonts/truetype
 Plug 'ctrlpvim/ctrlp.vim'
@@ -11,7 +13,7 @@ Plug 'andrewradev/sideways.vim'
 Plug 'andrewradev/splitjoin.vim'
 Plug 'andrewradev/switch.vim'
 Plug 'vim-airline/vim-airline'"StatusBar
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline-themes'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'dan-t/rusty-tags'
 Plug 'ryanoasis/vim-devicons'"Must be last one
@@ -62,4 +64,7 @@ autocmd BufRead *.rs :setlocal tags=./rusty-tags.vi;/
 set number
 
 colorscheme Atelier_ForestDark_cpy
-
+"Debugging with gdb and termdebug
+let g:termdebug_popup = 0
+let g:termdebug_wide = 163
+:packadd termdebug
