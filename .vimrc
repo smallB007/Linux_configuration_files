@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}"IntelliSense
+Plug 'neoclide/coc.nvim', {'branch': 'release'}"IntelliSense
 Plug 'neoclide/coc-rls'
 Plug 'neoclide/coc-json'
 Plug 'scrooloose/nerdtree'
