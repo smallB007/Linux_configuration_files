@@ -48,6 +48,12 @@ vmap <C-c> y
 vmap <C-x> x
 " CTRL-V to paste (insert mode)
 imap <C-v> <esc>P
+"Hightlight current line
+augroup CursorLine
+  au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
+augroup END
 
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
@@ -68,3 +74,4 @@ colorscheme Atelier_ForestDark_cpy
 let g:termdebug_popup = 0
 let g:termdebug_wide = 163
 :packadd termdebug
+
