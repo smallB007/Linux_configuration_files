@@ -16,6 +16,7 @@ Plug 'vim-airline/vim-airline'"StatusBar
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'dan-t/rusty-tags'
+Plug 'christoomey/vim-system-copy'
 Plug 'ryanoasis/vim-devicons'"Must be last one
 call plug#end()
 
@@ -50,7 +51,8 @@ vmap <C-x> x
 " CTRL-V to paste (insert mode)
 imap <C-v> <esc>P
 "CTRL+A
-map <C-a> <esc>gg"+yG<CR>
+map <C-a> <esc>:%y+<CR>"In order to work sudo apt install vim-gtk
+"map <C-a> <esc>:%y<CR>"vim only
 "Hightlight current line
 augroup CursorLine
   au!
