@@ -48,6 +48,8 @@ vmap <C-c> y
 vmap <C-x> x
 " CTRL-V to paste (insert mode)
 imap <C-v> <esc>P
+"CTRL+A
+map <C-a> <esc>gg"+yG<CR>
 "Hightlight current line
 augroup CursorLine
   au!
@@ -74,4 +76,8 @@ colorscheme Atelier_ForestDark_cpy
 let g:termdebug_popup = 0
 let g:termdebug_wide = 163
 :packadd termdebug
+
+set clipboard=unnamedplus"Use system clipboard
+
+let g:loaded_matchparen=1"Do not show match parens
 
