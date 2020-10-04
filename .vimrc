@@ -35,6 +35,7 @@ augroup END
 
 nmap <F8> :TagbarToggle<CR>
 nmap <C-n> :NERDTreeToggle<ENTER>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>"Open NERDTree on the open file dir
 nmap <F5> :CargoRun<ENTER>
 nmap <F12> :PlugInstall<ENTER>
 noremap ; l
@@ -80,4 +81,4 @@ let g:termdebug_wide = 163
 set clipboard=unnamedplus"Use system clipboard
 
 let g:loaded_matchparen=1"Do not show match parens
-
+:set hlsearch
