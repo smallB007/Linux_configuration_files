@@ -38,9 +38,6 @@ augroup END
 nmap <F8> :TagbarToggle<CR>
 nmap <F5> :!cargo run<CR>
 nmap <C-n> :NERDTreeToggle<ENTER>
-nmap <C-s> :w<CR>"in bashrc add: stty stop ""
-imap <C-s> <esc>:w<CR>
-vmap <C-s> :w!<CR>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>"Open NERDTree on the open file dir
 nmap <F12> :PlugInstall<ENTER>
 noremap ; l
@@ -55,8 +52,8 @@ vmap <C-x> x
 " CTRL-V to paste (insert mode)
 imap <C-v> <esc>P
 "CTRL+A
-map <C-a> <esc>:%y+<CR>"In order to work sudo apt install vim-gtk
-"map <C-a> <esc>:%y<CR>"vim only
+nmap <C-a> :%y+<CR>
+
 "Hightlight current line
 augroup CursorLine
   au!
