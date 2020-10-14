@@ -16,7 +16,8 @@ Plug 'vim-airline/vim-airline'"StatusBar
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'dan-t/rusty-tags'
-Plug 'christoomey/vim-system-copy'
+Plug 'christoomey/vim-system-copy'"mappings for copying / pasting text to the os specific clipboard
+Plug 'tpope/vim-fugitive'"git
 Plug 'ryanoasis/vim-devicons'"Must be last one
 call plug#end()
 
@@ -35,9 +36,12 @@ augroup colorscheme_coc_setup | au!
 augroup END
 
 nmap <F8> :TagbarToggle<CR>
+nmap <F5> :!cargo run<CR>
 nmap <C-n> :NERDTreeToggle<ENTER>
+nmap <C-s> :w<CR>"in bashrc add: stty stop ""
+imap <C-s> <esc>:w<CR>
+vmap <C-s> :w!<CR>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>"Open NERDTree on the open file dir
-nmap <F5> :CargoRun<ENTER>
 nmap <F12> :PlugInstall<ENTER>
 noremap ; l
 noremap l k
@@ -71,7 +75,6 @@ set encoding=UTF-8
 "manually anywere in the project rusty-tags vi
 "https://github.com/dan-t/rusty-tags
 autocmd BufRead *.rs :setlocal tags=./rusty-tags.vi;/
-
 set number
 
 colorscheme Atelier_ForestDark_cpy
@@ -84,3 +87,7 @@ set clipboard=unnamedplus"Use system clipboard
 
 let g:loaded_matchparen=1"Do not show match parens
 :set hlsearch
+set foldmethod=syntax
+"Using system clipboard
+set clipboard=unnamed
+set clipboard=unnamedplus
