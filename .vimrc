@@ -18,7 +18,6 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'dan-t/rusty-tags'
 Plug 'christoomey/vim-system-copy'"mappings for copying / pasting text to the os specific clipboard
 Plug 'tpope/vim-fugitive'"git
-Plug 'pseewald/vim-anyfold'"Folding
 Plug 'ryanoasis/vim-devicons'"Must be last one
 call plug#end()
 
@@ -93,18 +92,7 @@ set clipboard=unnamedplus"Use system clipboard
 
 let g:loaded_matchparen=1"Do not show match parens
 :set hlsearch
-"set foldmethod=syntax
+set foldmethod=syntax
 "Using system clipboard
 set clipboard=unnamed
 set clipboard=unnamedplus
-"Autofold plugin vim-anyfold
-filetype plugin indent on " required
- syntax on                 " required
-
- autocmd Filetype * AnyFoldActivate               " activate for all filetypes
- " or
-" autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
-
- set foldlevel=0  " close all folds
- " or
- set foldlevel=99 " Open all folds
