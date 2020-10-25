@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cterm	Atelier_ForestDark_cpy.vim	/^fun s:cterm(color)$/;"	f
+g:colors_name	Atelier_ForestDark_cpy.vim	/^let g:colors_name = "Atelier_ForestDark_cpy"$/;"	v
+gui	Atelier_ForestDark_cpy.vim	/^fun s:gui(color)$/;"	f
+hi	Atelier_ForestDark_cpy.vim	/^fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)$/;"	f
+s:cterm00	Atelier_ForestDark_cpy.vim	/^let s:cterm00 = "234   "$/;"	v
+s:cterm01	Atelier_ForestDark_cpy.vim	/^  let s:cterm01 = "235   "$/;"	v
+s:cterm02	Atelier_ForestDark_cpy.vim	/^  let s:cterm02 = "241   "$/;"	v
+s:cterm03	Atelier_ForestDark_cpy.vim	/^let s:cterm03 = "242   "$/;"	v
+s:cterm04	Atelier_ForestDark_cpy.vim	/^  let s:cterm04 = "246   "$/;"	v
+s:cterm05	Atelier_ForestDark_cpy.vim	/^let s:cterm05 = "247   "$/;"	v
+s:cterm06	Atelier_ForestDark_cpy.vim	/^  let s:cterm06 = "254   "$/;"	v
+s:cterm07	Atelier_ForestDark_cpy.vim	/^let s:cterm07 = "231   "$/;"	v
+s:cterm08	Atelier_ForestDark_cpy.vim	/^let s:cterm08 = "91   "$/;"	v
+s:cterm09	Atelier_ForestDark_cpy.vim	/^  let s:cterm09 = "166   "$/;"	v
+s:cterm0A	Atelier_ForestDark_cpy.vim	/^let s:cterm0A = "137   "$/;"	v
+s:cterm0B	Atelier_ForestDark_cpy.vim	/^let s:cterm0B = "100   "$/;"	v
+s:cterm0C	Atelier_ForestDark_cpy.vim	/^let s:cterm0C = "67    "$/;"	v
+s:cterm0D	Atelier_ForestDark_cpy.vim	/^let s:cterm0D = "69    "$/;"	v
+s:cterm0E	Atelier_ForestDark_cpy.vim	/^let s:cterm0E = "99    "$/;"	v
+s:cterm0F	Atelier_ForestDark_cpy.vim	/^  let s:cterm0F = "63    "$/;"	v
+s:gui00	Atelier_ForestDark_cpy.vim	/^let s:gui00 = "1b1918"$/;"	v
+s:gui01	Atelier_ForestDark_cpy.vim	/^let s:gui01 = "2c2421"$/;"	v
+s:gui02	Atelier_ForestDark_cpy.vim	/^let s:gui02 = "68615e"$/;"	v
+s:gui03	Atelier_ForestDark_cpy.vim	/^let s:gui03 = "766e6b"$/;"	v
+s:gui04	Atelier_ForestDark_cpy.vim	/^let s:gui04 = "9c9491"$/;"	v
+s:gui05	Atelier_ForestDark_cpy.vim	/^let s:gui05 = "a8a19f"$/;"	v
+s:gui06	Atelier_ForestDark_cpy.vim	/^let s:gui06 = "e6e2e0"$/;"	v
+s:gui07	Atelier_ForestDark_cpy.vim	/^let s:gui07 = "f1efee"$/;"	v
+s:gui08	Atelier_ForestDark_cpy.vim	/^let s:gui08 = "c22c40"$/;"	v
+s:gui09	Atelier_ForestDark_cpy.vim	/^let s:gui09 = "df5320"$/;"	v
+s:gui0A	Atelier_ForestDark_cpy.vim	/^let s:gui0A = "c38418"$/;"	v
+s:gui0B	Atelier_ForestDark_cpy.vim	/^let s:gui0B = "7b9726"$/;"	v
+s:gui0C	Atelier_ForestDark_cpy.vim	/^let s:gui0C = "3d97b8"$/;"	v
+s:gui0D	Atelier_ForestDark_cpy.vim	/^let s:gui0D = "407ee7"$/;"	v
+s:gui0E	Atelier_ForestDark_cpy.vim	/^let s:gui0E = "6666ea"$/;"	v
+s:gui0F	Atelier_ForestDark_cpy.vim	/^let s:gui0F = "c33ff3"$/;"	v
